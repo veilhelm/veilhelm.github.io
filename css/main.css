@@ -75,6 +75,30 @@ body {
     animation: moveInBottom 1s;
 }
 
+.contact-box{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.contact-box h4 {
+    font-weight: 300;
+    letter-spacing: 1rem;
+}
+.contact-box a {
+    font-weight: 300;
+    letter-spacing: 1rem;
+    color: white;
+}
+
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;
